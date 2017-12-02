@@ -71,7 +71,7 @@ export default Component.extend({
     'sizes'
   ],
 
-  didInsertElement() {
+  didRender() {
     this._super(...arguments)
     get(this, 'observer').observe(this.element)
   },
