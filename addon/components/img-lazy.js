@@ -51,7 +51,7 @@ export default Component.extend({
 
   _error: null,
   _loaded: not('observer.hasIntersectionObserver'),
-  _loading: oneWay('observer.hasIntersectionObserver'),
+  _loading: false,
 
   src: null,
   title: null,
